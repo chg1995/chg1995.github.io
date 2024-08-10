@@ -103,7 +103,7 @@ header {
 @media (max-width: 750px) {
     #background-video { display: none; }
     body {
-      background: url("img/profile.png") no-repeat;
+      background: url("img/background.png") no-repeat;
       background-size: cover;
     }
 }
