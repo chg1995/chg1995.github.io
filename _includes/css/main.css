@@ -100,7 +100,7 @@ header {
     background: #background-video;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 10px) {
     #background-video { display: none; }
     body {
       background: url("img/background.png") no-repeat;
