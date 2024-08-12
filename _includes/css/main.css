@@ -64,16 +64,16 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #{{ site.color.primary }};
+    /*background-color: #{{ site.color.primary }};*/
 }
 
 hr.star-primary {
-    border-color: #{{ site.color.secondary }};
+    border-color: #fff;
 }
 
 hr.star-primary:after {
-    color: #{{ site.color.secondary }};
-    background-color: #fff;
+    color: #fff;
+    /*background-color: #fff;*/
 }
 
 .img-centered {
@@ -457,6 +457,10 @@ footer .footer-below {
 
 .portfolio-modal .modal-content .item-details {
     margin: 30px 0;
+}
+
+.modal-body {
+    color: #{{ site.color.secondary }};
 }
 
 .portfolio-modal .close-modal {
